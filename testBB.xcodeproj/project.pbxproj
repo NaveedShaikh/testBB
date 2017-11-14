@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1023B424133969AAE625BC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33024D0E1B6CC200921AB839 /* CoreTelephony.framework */; };
 		18D0B5FB1FBB39D10075B789 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0B5FA1FBB39D10075B789 /* AppDelegate.m */; };
 		18D0B5FE1FBB39D10075B789 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0B5FD1FBB39D10075B789 /* ViewController.m */; };
 		18D0B6011FBB39D10075B789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D0B5FF1FBB39D10075B789 /* Main.storyboard */; };
@@ -15,6 +16,14 @@
 		18D0B6091FBB39D10075B789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0B6081FBB39D10075B789 /* main.m */; };
 		18D0B6131FBB39D10075B789 /* testBBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0B6121FBB39D10075B789 /* testBBTests.m */; };
 		18D0B61E1FBB39D10075B789 /* testBBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0B61D1FBB39D10075B789 /* testBBUITests.m */; };
+		3BF185EB6E15277DB458AA5B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A423717F87BC6C16D622AF /* QuartzCore.framework */; };
+		71E45A42B56ACA1FC9AAAD1A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9F81610169933F041616A /* CoreVideo.framework */; };
+		7DBEEA25E3436D917D65504B /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6285D3FAB41D54B4A6FFEDFD /* BuddyBuildSDK.framework */; };
+		946C6522BC3B379870830C35 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022018EAEA31B2BBE3FD410E /* CoreText.framework */; };
+		960AB6E6847DBA8423F87433 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62BAC3C8C0C16031866B4B6 /* SystemConfiguration.framework */; };
+		B3BAE177E8AB1B8A065F7DEF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7CEF889FFBECEC5DF535F2 /* AVFoundation.framework */; };
+		DA24A60455BC84909434ED68 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6802EAEDCC20ED8B73939F9 /* CoreMedia.framework */; };
+		DA3A3A511368C3F822DF02F6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E85E04CA94FD276A95D6DC3 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022018EAEA31B2BBE3FD410E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		0A7CEF889FFBECEC5DF535F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0E85E04CA94FD276A95D6DC3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		18D0B5F61FBB39D00075B789 /* testBB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testBB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D0B5F91FBB39D10075B789 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18D0B5FA1FBB39D10075B789 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,12 @@
 		18D0B6191FBB39D10075B789 /* testBBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testBBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D0B61D1FBB39D10075B789 /* testBBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testBBUITests.m; sourceTree = "<group>"; };
 		18D0B61F1FBB39D10075B789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33024D0E1B6CC200921AB839 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6285D3FAB41D54B4A6FFEDFD /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		87E9F81610169933F041616A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D5A423717F87BC6C16D622AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F62BAC3C8C0C16031866B4B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F6802EAEDCC20ED8B73939F9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DBEEA25E3436D917D65504B /* BuddyBuildSDK.framework in Frameworks */,
+				DA3A3A511368C3F822DF02F6 /* AssetsLibrary.framework in Frameworks */,
+				946C6522BC3B379870830C35 /* CoreText.framework in Frameworks */,
+				0F1023B424133969AAE625BC /* CoreTelephony.framework in Frameworks */,
+				960AB6E6847DBA8423F87433 /* SystemConfiguration.framework in Frameworks */,
+				3BF185EB6E15277DB458AA5B /* QuartzCore.framework in Frameworks */,
+				B3BAE177E8AB1B8A065F7DEF /* AVFoundation.framework in Frameworks */,
+				DA24A60455BC84909434ED68 /* CoreMedia.framework in Frameworks */,
+				71E45A42B56ACA1FC9AAAD1A /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +105,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AD71C1105220B39884725CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6285D3FAB41D54B4A6FFEDFD /* BuddyBuildSDK.framework */,
+				0E85E04CA94FD276A95D6DC3 /* AssetsLibrary.framework */,
+				022018EAEA31B2BBE3FD410E /* CoreText.framework */,
+				33024D0E1B6CC200921AB839 /* CoreTelephony.framework */,
+				F62BAC3C8C0C16031866B4B6 /* SystemConfiguration.framework */,
+				D5A423717F87BC6C16D622AF /* QuartzCore.framework */,
+				0A7CEF889FFBECEC5DF535F2 /* AVFoundation.framework */,
+				F6802EAEDCC20ED8B73939F9 /* CoreMedia.framework */,
+				87E9F81610169933F041616A /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18D0B5ED1FBB39D00075B789 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +128,7 @@
 				18D0B6111FBB39D10075B789 /* testBBTests */,
 				18D0B61C1FBB39D10075B789 /* testBBUITests */,
 				18D0B5F71FBB39D10075B789 /* Products */,
+				0AD71C1105220B39884725CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -432,6 +476,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XQMBYCEZ4P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = testBB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aptify.testBB;
@@ -446,6 +494,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XQMBYCEZ4P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = testBB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aptify.testBB;
